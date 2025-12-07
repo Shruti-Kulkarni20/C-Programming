@@ -7,7 +7,7 @@
 
 #include<stdio.h>
 
-int Display(int Arr[],int iSize)
+int Summation(int Arr[],int iSize)
 {
     int iCnt = 0;
     int iSum = 0;
@@ -30,10 +30,11 @@ int main()
         scanf("%d",&Arr[iCnt]);
     }
     
-    iRet = Display(Arr,5);    //Display(100,5)
+    iRet = Summation(Arr,5);   
 
     printf("Summation of elements : %d",iRet);
     
     
     return 0;
+
 }
