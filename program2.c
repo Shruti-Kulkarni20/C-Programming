@@ -2,6 +2,7 @@
 //
 //  File name : Program2.c
 //  Author    : Shruti Kulkarni
+//  Descreption: Problems on numbers.
 //  Date      : 30/09/2025
 //
 ///////////////////////////////////////////////////////////////
@@ -19,4 +20,5 @@ int main()
 
 
     return 0;
+
 }
