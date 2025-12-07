@@ -2,7 +2,7 @@
 // 
 // Name : Shruti Kulkarni 
 // Descreption : Problem on Digit
-// Date        : 10/11/2025
+// Date        : 10/10/2025
 //////////////////////////////////////////////////////////
 
 #include<stdio.h>
@@ -29,4 +29,5 @@ int main()
 
    return 0;
 }
+
 
