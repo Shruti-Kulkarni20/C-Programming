@@ -1,0 +1,25 @@
+////////////////////////////////////////////////
+//
+// Name : Shruti Shrinivas Kulkarni
+// Descreption : Problems on string 
+// Date     : 2/12/2025
+//
+////////////////////////////////////////////////
+
+#include<stdio.h>
+
+void Display(char str[])
+{
+    printf("Your name is : %s\n",str);
+}
+int main()
+{
+    char Arr[50];
+
+    printf("Enter your name : \n");
+    scanf(" %[^'\n']s",Arr);
+
+    Display(Arr);
+
+    return 0;
+}
