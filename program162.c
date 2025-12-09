@@ -1,0 +1,54 @@
+////////////////////////////////////////////////
+//
+// Name        : Shruti Shrinivas Kulkarni
+// Descreption : Problems on string 
+// Date        : 4/12/2025
+////////////////////////////////////////////////
+
+
+#include<stdio.h>
+#include<stdbool.h>
+
+bool CheckCharacter(char *str,char ch)
+{
+    bool bFlage = false;
+
+    while(*str != '\0')
+    {
+       if(*str == ch)
+       {
+         bFlage = true;
+         break;
+       }
+         
+       str++;
+    }
+    return bFlage;
+}
+
+int main()
+{
+    char Arr[50] = {'\0'};
+    char cValue = '\0';
+    bool bRet = false;
+
+    printf("Enter string :\n");
+    scanf("%[^'\n']s",Arr);
+   
+    printf("Enter the character : \n");
+    scanf(" %c",&cValue); 
+
+    bRet = CheckCharacter(Arr,cValue);
+
+    if (bRet == true)
+    {
+       printf("%c is present in %s\n",cValue,Arr);
+    }
+    else
+    {
+         printf("%c is  not present in %s\n",cValue,Arr);
+    }
+    
+
+    return 0;
+}
